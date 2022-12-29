@@ -61,6 +61,7 @@ def foot_in_meter():
     except ValueError:
       print('Invalid input')
 
+      
 def meter_in_foot():
   while True:
     try:
@@ -72,6 +73,7 @@ def meter_in_foot():
     except ValueError:
       print('Invalid input')
 
+      
 def again():
   asking_user = input('Back to the starting screen [y/n]: ')
   
@@ -82,6 +84,7 @@ def again():
       print('See you next time!')
       break
 
+      
 def starting_screen():
   options = '\n\r[1] Fahrenheit in Celsius\n[2] Celsius in Fahrenheit\n[3] Inches in Centimeter\n[4] Centimeter in Inches\n[5] Foot in Meter\n[6] Meter in Foot\n\r'
   print(options)
